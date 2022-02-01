@@ -1,0 +1,232 @@
+@media (min-width: 300px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem .5rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* HEADER */
+    #header {
+        margin-top: 2.5rem;
+    }
+
+    #header .container .row .col-lg-4 img {
+        margin-top: -2.5rem !important;
+    }
+
+    /* END OFHEADER */
+
+
+    /* CONTENT */
+
+    #contents {
+        margin-top: 2.5rem;
+    }
+
+    #contents .container .row .bussiness {
+        background-color: #D8E8EA;
+        height: 55rem;
+        padding: 2.5rem 1.2rem;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    #contents .container .row .security {
+        padding: 2.5rem 0 !important;
+    }
+
+    #contents .container .row .security .circle {
+        width: 15rem;
+        height: 15rem;
+        margin-top: 0 !important;
+    }
+
+    #contents .container .row .security .security-paragraph {
+        padding: 0 1.2rem;
+    }
+
+    /* AKHIR CONTENT */
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* CONTENT */
+    #contents .container .row .bussiness {
+        background-color: #D8E8EA;
+        height: 55rem;
+        padding: 2.5rem;
+        border-radius: 24px;
+        overflow: hidden;
+    }
+
+
+    #contents .container .row .security .circle {
+        transform: scale(1.1);
+    }
+
+
+    #contents .container .row .security {
+        padding: 2.5rem 0 !important;
+        border-radius: 24px;
+    }
+
+    #contents .container .row .security .security-paragraph {
+        padding: 0 2rem;
+    }
+
+    /* AKHIR CONTENT */
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* HEADERS */
+    #header .container .row .col-lg-4 img {
+        transform: scale(.9) !important;
+    }
+
+    /* END HEADERS */
+
+    /* CONTENT */
+
+    #contents {
+        margin-top: 0rem !important;
+    }
+
+    /* AKHIR CONTENT */
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* HEADER */
+    #header {
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    #header .container .row .col-lg-4 img {
+        margin-top: 3.2rem !important;
+        transform: scale(1.3) !important;
+    }
+
+    /* END OFHEADER */
+
+    /* CONTENTS */
+
+    #contents .container .row {
+        margin-top: 5.7rem;
+    }
+
+    #contents .container .row .bussiness {
+        background-color: #D8E8EA;
+        height: 55rem;
+        padding: 5rem;
+        border-radius: 24px;
+        overflow: hidden;
+        width: 48%;
+    }
+
+    #contents .container .row .bussiness p {
+        font-size: 18px;
+    }
+
+    #contents .container .row .security {
+        background-color: #E7F0E4;
+        border-radius: 24px;
+        width: 48%;
+        margin-top: 0;
+    }
+
+    #contents .container .row .security .circle {
+        margin-top: 2.5rem !important;
+    }
+
+    /* END OF CONTENTS */
+}
+
+
+@media (min-width: 1000px) {
+
+    /* HEADER */
+    #header {
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    #header .container .row .col-lg-4 img {
+        transform: scale(1.5) !important;
+    }
+
+    /* END OFHEADER */
+
+    /* CONTENT */
+    #contents {
+        margin-top: 5.7rem !important;
+    }
+
+    /* AKHIR CONTENT */
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* HEADER */
+    #header {
+        margin-top: 2.5rem;
+        padding: 0;
+    }
+
+    #header .container .row .col-lg-4 img {
+        transform: scale(1.2) !important;
+    }
+
+    /* END OFHEADER */
+
+    /* CONTENT */
+    #contents {
+        margin-top: 3.1rem !important;
+    }
+
+    #contents .container .row .security .circle {
+        transform: scale(1.2);
+    }
+
+    /* AKHIR CONTENT */
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* CONTENT */
+
+    #contents .container .row .security .circle {
+        transform: scale(1.3);
+    }
+
+
+    #contents .container .row .security {
+        padding: 5rem 3rem !important;
+    }
+
+    #contents .container .row .security .end {
+        margin-top: 6rem;
+    }
+
+    /* AKHIR CONTENT */
+}
