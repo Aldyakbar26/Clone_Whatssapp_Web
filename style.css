@@ -14,6 +14,7 @@ body {
     display: flex;
     align-items: center;
     gap: .5rem;
+    font-size: 1.8rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -43,6 +44,18 @@ body {
 
 .navbar .container .collapse .leanguage a {
     color: #fff;
+}
+
+.navbar.animation-navbar {
+    animation: showNavbar 1s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 /* AKHIR NAVBAR */
