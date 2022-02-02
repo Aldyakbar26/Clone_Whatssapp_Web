@@ -1,0 +1,11 @@
+/* NAVBAR */
+@keyframes showNavbar {
+    from {
+        transform: translateY(-5rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+/* END OF NAVBAR */
