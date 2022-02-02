@@ -166,28 +166,27 @@ body {
     padding: 3rem;
 }
 
-#footers .container .row .col-lg-2 h5 {
+#footers .container .row .col-md-2 h5 {
     letter-spacing: .2rem;
 } 
 
-#footers .container .row .col-lg-2 .links-whatsapp-footers a,
-#footers .container .row .col-lg-2 .links-download-footers a,
-#footers .container .row .col-lg-2 .links-help-footers a {
+#footers .container .row .col-md-2 .links-whatsapp-footers a,
+#footers .container .row .col-md-2 .links-download-footers a,
+#footers .container .row .col-md-2 .links-help-footers a {
     transition: .5s;
     width: 7rem;
 }
 
-#footers .container .row .col-lg-2 .links-companny-footers a {
+#footers .container .row .col-md-2 .links-companny-footers a {
     transition: .5s;
     width: 9rem;
 }
 
-#footers .container .row .col-lg-2 .links-whatsapp-footers a:hover,
-#footers .container .row .col-lg-2 .links-companny-footers a:hover,
-#footers .container .row .col-lg-2 .links-download-footers a:hover,
-#footers .container .row .col-lg-2 .links-help-footers a:hover {
+#footers .container .row .col-md-2 .links-whatsapp-footers a:active,
+#footers .container .row .col-md-2 .links-companny-footers a:active,
+#footers .container .row .col-md-2 .links-download-footers a:active,
+#footers .container .row .col-md-2 .links-help-footers a:active {
     color: #1CB39B !important ;
-    transform: translateX(2rem);
 }
 /* END OF FOOTERS */
 
