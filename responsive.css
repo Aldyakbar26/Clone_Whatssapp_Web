@@ -53,7 +53,43 @@
         padding: 0 1.2rem;
     }
 
-    /* AKHIR CONTENT */
+    /* END OF CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row .col-md-2 {
+        text-align: center;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 2.5rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-companny-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 100%;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 1.5rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
 
 }
 
@@ -106,6 +142,41 @@
     }
 
     /* AKHIR CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    /* END OF FOOTERS */
 }
 
 
@@ -156,6 +227,58 @@
     }
 
     /* END OF CONTENTS */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a:hover,
+    #footers .container .row .col-md-2 .links-companny-footers a:hover,
+    #footers .container .row .col-md-2 .links-download-footers a:hover,
+    #footers .container .row .col-md-2 .links-help-footers a:hover {
+        color: #1CB39B !important;
+        transform: translateX(2rem);
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
+
 }
 
 
@@ -207,6 +330,14 @@
     }
 
     /* AKHIR CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-evenly !important;
+    }
+
+    /* END OF FOOTERS */
 }
 
 
@@ -229,4 +360,12 @@
     }
 
     /* AKHIR CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: center !important;
+    }
+
+    /* END OF FOOTERS */
 }
