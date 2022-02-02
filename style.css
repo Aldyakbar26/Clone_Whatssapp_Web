@@ -69,7 +69,7 @@ body {
 #header .container .mac-windows-pc a {
     color: #1CB39B;
     display: block;
-    transition: .5s cubic-bezier(0, -0.03, 0, 1.02);
+    transition: .5s;
 }
 
 #header .container .android:hover a,
@@ -133,6 +133,8 @@ body {
 #contents .container .row .security .security-paragraph {
     letter-spacing: 0;
     margin-top: 2rem;
+    font-size: 18px!important;
+    padding: 0 !important;
 }
 
 /* END OF CONTENTS */
