@@ -91,6 +91,52 @@
 
     /* END OF COPYRIGHT */
 
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin: 0 .5rem;
+        right: 0;
+        border-right: 5px solid #1CB39B;
+    }
+
+    #message .container .message-from-me .photo {
+        width: 4rem;
+    }
+
+    #message .container .message-from-me .text {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    #message .container .message-from-me .text p {
+        font-size: .8rem !important;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: .9rem;
+    }
+
+    #message .container .message-from-me .close {
+        margin-top: -.3rem !important;
+    }
+
+    /* END OF MESSAGE */
+
+}
+
+
+@media (min-width: 400px) {
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin-right: 1rem;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
 }
 
 
@@ -122,6 +168,11 @@
     }
 
     /* AKHIR CONTENT */
+
+    
+    /* MESSAGE */
+    /* END OF MESSAGE */
+
 }
 
 
@@ -134,6 +185,7 @@
     }
 
     /* END HEADERS */
+
 
     /* CONTENT */
 
@@ -214,7 +266,6 @@
     #contents .container .row .bussiness {
         background-color: #D8E8EA;
         height: 55rem;
-        padding: 5rem;
         border-radius: 24px;
         overflow: hidden;
         width: 48%;
@@ -300,6 +351,15 @@
 
     /* END OF COPYRIGHT */
 
+
+    /* MESSAGE */
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+
 }
 
 
@@ -381,11 +441,15 @@
 
 
     #contents .container .row .security {
-        padding: 5rem 3rem !important;
+        padding: 5rem 2rem !important;
     }
 
     #contents .container .row .security .end {
         margin-top: 6rem;
+    }
+
+    #contents .container .row .bussiness {
+        padding: 5rem 3rem !important;
     }
 
     /* AKHIR CONTENT */
