@@ -212,3 +212,36 @@ body {
 }
 
 /* END OF COPYRIGHT */
+
+
+/* MESSAGE */
+
+#message .container .message-from-me {
+    background-color: #fff;
+    height: 5.3rem;
+    border-radius: 10px;
+    position: fixed;
+    top: 42rem;
+    right: 2rem;
+    z-index: 1;
+    border: 1px solid rgb(240, 240, 240);
+    border-right: 5px solid #1CB39B;
+    transform: translateX(25rem);
+}
+
+#message .container .message-from-me .close {
+    cursor: pointer;
+}
+
+#message .container .message-from-me.message-animation {
+    animation: messageAnimation 1s cubic-bezier(0, 0, 0, 0.99) forwards;
+}
+
+#message .container .message-from-me .photo {
+    width: 3rem;
+    height: 3rem;
+    background-color: #128C7E;
+    border-radius: 50%;
+}
+
+/* END OF MESSAGE */
