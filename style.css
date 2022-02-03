@@ -233,6 +233,14 @@ body {
     cursor: pointer;
 }
 
+#message .container .message-from-me .close .fas {
+    transition: .5s;
+}
+
+#message .container .message-from-me .close .fas:hover {
+    transform: rotate(360deg)
+}
+
 #message .container .message-from-me.message-animation {
     animation: messageAnimation 1s cubic-bezier(0, 0, 0, 0.99) forwards;
 }
