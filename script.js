@@ -13,3 +13,21 @@ window.addEventListener('scroll', function () {
     }
 })
 // END OF NAVBAR
+
+
+// MESSAGE
+const messageFromMe = document.querySelector('#message .container .message-from-me');
+console.log(messageFromMe);
+
+window.addEventListener('load', function () {
+    this.setTimeout(() => {
+        messageFromMe.classList.add('message-animation');
+    }, 2000)
+
+    messageFromMe.addEventListener('click', (e) => {
+        if (e.target.className == 'fas fa-times') {
+            messageFromMe.classList.remove('message-animation');
+        }
+    })
+})
+// END OF MESSAGE
