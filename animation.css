@@ -9,3 +9,12 @@
     }
 }
 /* END OF NAVBAR */
+
+
+/* MESSAGE */
+@keyframes messageAnimation {
+    to {
+        transform: translateX(0);
+    }
+}
+/* END OF MESSAGE */
