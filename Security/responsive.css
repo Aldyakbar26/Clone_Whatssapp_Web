@@ -1,0 +1,77 @@
+@media (min-width : 300px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem .5rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin: 0 .5rem;
+        right: 0;
+        border-right: 5px solid #1CB39B;
+    }
+
+    #message .container .message-from-me .photo {
+        width: 4rem;
+    }
+
+    #message .container .message-from-me .text {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    #message .container .message-from-me .text p {
+        font-size: .8rem !important;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: .9rem;
+    }
+
+    #message .container .message-from-me .close {
+        margin-top: -.3rem !important;
+    }
+
+    /* END OF MESSAGE */
+}
+
+@media (min-width : 400px) {
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin-right: 1rem;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+}
+
+@media (min-width : 576px) {}
+
+@media (min-width : 768px) {}
+
+@media (min-width : 992px) {
+
+    /* MESSAGE */
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+}
+
+@media (min-width : 1200px) {}
+
+@media (min-width : 1400px) {}

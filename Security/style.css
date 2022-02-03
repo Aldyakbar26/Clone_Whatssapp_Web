@@ -1,0 +1,117 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #128C7E;
+    height: 91px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 34px 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    top: .5rem;
+    margin: auto;
+    transition: .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 50%;
+}
+
+.navbar .container .collapse .leanguage a {
+    color: #fff;
+}
+
+.navbar.animation-navbar {
+    animation: showNavbar 1s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes showNavbar {
+    from {
+        transform: translateY(-5rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* END OF NAVBAR */
+
+
+/* MESSAGE */
+#message .container .message-from-me {
+    background-color: #fff;
+    height: 5.3rem;
+    border-radius: 10px;
+    position: fixed;
+    top: 42rem;
+    right: 2rem;
+    z-index: 1;
+    border: 1px solid rgb(240, 240, 240);
+    border-right: 5px solid #1CB39B;
+    transform: translateX(25rem);
+}
+
+#message .container .message-from-me .close {
+    cursor: pointer;
+}
+
+#message .container .message-from-me .close .fas {
+    transition: .5s;
+}
+
+#message .container .message-from-me .close .fas:hover {
+    transform: rotate(360deg)
+}
+
+#message .container .message-from-me.message-animation {
+    animation: messageAnimation 1s cubic-bezier(0, 0, 0, 0.99) forwards;
+}
+
+#message .container .message-from-me .photo {
+    width: 3rem;
+    height: 3rem;
+    background-color: #128C7E;
+    border-radius: 50%;
+}
+
+@keyframes messageAnimation {
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* END OF MESSAGE */
