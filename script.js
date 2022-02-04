@@ -22,7 +22,7 @@ console.log(messageFromMe);
 window.addEventListener('load', function () {
     this.setTimeout(() => {
         messageFromMe.classList.add('message-animation');
-    }, 2000)
+    }, 3000)
 
     messageFromMe.addEventListener('click', (e) => {
         if (e.target.className == 'fas fa-times') {
