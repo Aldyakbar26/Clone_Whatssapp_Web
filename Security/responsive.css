@@ -13,6 +13,48 @@
     /* END OF NAVBAR */
 
 
+    /* HEADER */
+    #header .background-header {
+        height: 203px;
+    }
+
+    /* END OF HEADER */
+
+
+    /* CONTENT */
+    #content .container {
+        width: 100%;
+        padding: 2rem 1.2rem;
+    }
+
+    #content .container .circle {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #content .container p {
+        font-size: 1rem !important;
+    }
+
+    #content .container .row .col-md-5 {
+        text-align: center;
+    }
+
+    #content .container .row .col-md-5 .icon-speak,
+    #content .container .row .col-md-5 .icon-message,
+    #content .container .row .col-md-5 .icon-padlock,
+    #content .container .row .col-md-5 .icon-get-details {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content .container .in {
+        text-align: center;
+    }
+
+    /* END OF CONTENT */
+
+
     /* MESSAGE */
     #message .container .message-from-me {
         margin: 0 .5rem;
@@ -42,6 +84,42 @@
     }
 
     /* END OF MESSAGE */
+
+
+    /* FOOTERS */
+    #footers .container .row .col-md-2 {
+        text-align: center;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 2.5rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-companny-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 100%;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 1.5rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
 }
 
 @media (min-width : 400px) {
@@ -58,11 +136,163 @@
     /* END OF MESSAGE */
 }
 
-@media (min-width : 576px) {}
+@media (min-width : 576px) {
+    body {
+        background-color: #fff;
+    }
+}
 
-@media (min-width : 768px) {}
+@media (min-width : 768px) {
+
+
+    /* HEADER */
+    #header .background-header {
+        height: 303px;
+    }
+
+    /* END OF HEADER */
+
+    /* CONTENT */
+    #content .container .row .col-md-5 .icon-speak,
+    #content .container .row .col-md-5 .icon-message,
+    #content .container .row .col-md-5 .icon-padlock,
+    #content .container .row .col-md-5 .icon-get-details {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #content .container .row .col-md-5 {
+        text-align: left;
+    }
+
+    #content .container .in {
+        text-align: left;
+    }
+
+    /* END OF CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: 0rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+}
 
 @media (min-width : 992px) {
+
+    body {
+        background-color: #F0F4F9;
+    }
+
+    /* HEADER */
+    #header .background-header {
+        height: 403px;
+    }
+
+    /* END OF HEADER */
+
+
+    /* CONTENT */
+    #content .container {
+        width: 80%;
+        padding: 2rem 5.5rem;
+    }
+
+    #content .container .circle {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    /* END OF CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a:hover,
+    #footers .container .row .col-md-2 .links-companny-footers a:hover,
+    #footers .container .row .col-md-2 .links-download-footers a:hover,
+    #footers .container .row .col-md-2 .links-help-footers a:hover {
+        color: #1CB39B !important;
+        transform: translateX(2rem);
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
 
     /* MESSAGE */
     #message .container .message-from-me .text h6 {
@@ -72,6 +302,39 @@
     /* END OF MESSAGE */
 }
 
-@media (min-width : 1200px) {}
+@media (min-width : 1200px) {
 
-@media (min-width : 1400px) {}
+    /* CONTENT */
+    #content .container {
+        width: 75%;
+        padding: 2rem 9rem;
+    }
+
+    /* END OF CONTENT */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-evenly !important;
+    }
+
+    /* END OF FOOTERS */
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: .2rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+}
+
+@media (min-width : 1400px) {
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: center !important;
+    }
+
+    /* END OF FOOTERS */
+}
