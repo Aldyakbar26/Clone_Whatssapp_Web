@@ -146,7 +146,7 @@ body {
 #contents .container .row .security .security-paragraph {
     letter-spacing: 0;
     margin-top: 2rem;
-    font-size: 18px!important;
+    font-size: 18px !important;
     padding: 0 !important;
 }
 
@@ -183,7 +183,7 @@ body {
 
 #footers .container .row .col-md-2 h5 {
     letter-spacing: .2rem;
-} 
+}
 
 #footers .container .row .col-md-2 .links-whatsapp-footers a,
 #footers .container .row .col-md-2 .links-download-footers a,
@@ -201,8 +201,9 @@ body {
 #footers .container .row .col-md-2 .links-companny-footers a:active,
 #footers .container .row .col-md-2 .links-download-footers a:active,
 #footers .container .row .col-md-2 .links-help-footers a:active {
-    color: #1CB39B !important ;
+    color: #1CB39B !important;
 }
+
 /* END OF FOOTERS */
 
 
@@ -215,7 +216,6 @@ body {
 
 
 /* MESSAGE */
-
 #message .container .message-from-me {
     background-color: #fff;
     height: 5.3rem;
