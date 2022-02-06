@@ -1,5 +1,6 @@
 body {
     font-family: roboto, sans-serif;
+    background-color: #F0F4F9;
 }
 
 /* NAVBAR */
@@ -71,6 +72,43 @@ body {
 /* END OF NAVBAR */
 
 
+/* HEADER */
+#header .background-header {
+    width: 100%;
+    height: 403px;
+    background-image: url('../Assets/Header_WhatsApp_Security.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* END OF HEADER */
+
+
+/* CONTENT */
+#content .container {
+    background-color: #fff;
+    width: 75%;
+    padding: 4rem 9rem;
+}
+
+#content .container .circle {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(119, 215, 200);
+    border-radius: 50%;
+}
+
+#content .container .row .col-md-5 .icon-speak,
+#content .container .row .col-md-5 .icon-message,
+#content .container .row .col-md-5 .icon-padlock,
+#content .container .row .col-md-5 .icon-get-details {
+    width: 10rem;
+    height: 10rem;
+}
+
+/* END OF ☺CONTENT */
+
+
 /* MESSAGE */
 #message .container .message-from-me {
     background-color: #fff;
@@ -115,3 +153,43 @@ body {
 }
 
 /* END OF MESSAGE */
+
+
+/* FOOTERS */
+#footers {
+    background-color: #273443;
+    padding: 3rem;
+}
+
+#footers .container .row .col-md-2 h5 {
+    letter-spacing: .2rem;
+}
+
+#footers .container .row .col-md-2 .links-whatsapp-footers a,
+#footers .container .row .col-md-2 .links-download-footers a,
+#footers .container .row .col-md-2 .links-help-footers a {
+    transition: .5s;
+    width: 7rem;
+}
+
+#footers .container .row .col-md-2 .links-companny-footers a {
+    transition: .5s;
+    width: 9rem;
+}
+
+#footers .container .row .col-md-2 .links-whatsapp-footers a:active,
+#footers .container .row .col-md-2 .links-companny-footers a:active,
+#footers .container .row .col-md-2 .links-download-footers a:active,
+#footers .container .row .col-md-2 .links-help-footers a:active {
+    color: #1CB39B !important;
+}
+
+/* END OF FOOTERS 
+
+
+/* COPYRIGHT */
+#copyright {
+    background-color: #1C1E21;
+}
+
+/* END OF COPYRIGHT */
