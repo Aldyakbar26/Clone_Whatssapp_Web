@@ -1,0 +1,294 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #128C7E;
+    height: 91px;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 34px 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    top: .5rem;
+    margin: auto;
+    transition: .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 50%;
+}
+
+.navbar .container .collapse .leanguage a {
+    color: #fff;
+}
+
+.navbar.animation-navbar {
+    animation: showNavbar 1s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes showNavbar {
+    from {
+        transform: translateY(-5rem);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* END OF NAVBAR */
+
+
+/* CONTENT */
+#content .container .row .col-lg-6 .text {
+    background-color: #FCF2C6;
+    border-radius: 0 0 24px 24px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#content .container .row .col-lg-6 .text .title-text,
+#content .container .row .col-lg-6 .group-chat .title-text,
+#content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop .title-text,
+#content .container .row .col-lg-6 .voice-and-video-calls .title-text,
+#content .container .row .col-lg-6 .share-momments .title-text,
+#content .container .row .col-lg-6 .security-by-default .title-text,
+#content .container .row .col-lg-6 .voices-message .title-text,
+#content .container .row .col-lg-6 .documents-sharing .title-text {
+    color: #5E5E5E;
+    letter-spacing: .2rem;
+}
+
+#content .container .row .col-lg-6 .text h3,
+#content .container .row .col-lg-6 .group-chat h3,
+#content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop h3,
+#content .container .row .col-lg-6 .voice-and-video-calls h3,
+#content .container .row .col-lg-6 .share-momments h3,
+#content .container .row .col-lg-6 .security-by-default h3,
+#content .container .row .col-lg-6 .voices-message h3,
+#content .container .row .col-lg-6 .documents-sharing h3 {
+    letter-spacing: .1rem;
+}
+
+#content .container .row .col-lg-6 .text .paragraph,
+#content .container .row .col-lg-6 .group-chat .paragraph,
+#content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop .paragraph,
+#content .container .row .col-lg-6 .voice-and-video-calls .paragraph,
+#content .container .row .col-lg-6 .share-momments .paragraph,
+#content .container .row .col-lg-6 .security-by-default .paragraph,
+#content .container .row .col-lg-6 .voices-message .paragraph,
+#content .container .row .col-lg-6 .documents-sharing .paragraph {
+    color: #5E5E75;
+}
+
+#content .container .row .col-lg-6 .text .data-charges,
+#content .container .row .col-lg-6 .voice-and-video-calls .data-charges-speak-freely {
+    color: #5E5E75;
+}
+
+#content .container .row .col-lg-6 .group-chat {
+    background-color: #E7F0E4;
+    border-radius: 0 0 24px 24px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .family,
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .friends,
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .weekend {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-family,
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-friends,
+#content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-weekend {
+    width: 8rem;
+    letter-spacing: .1rem;
+    color: #5E5E75;
+    font-weight: 500;
+}
+
+#content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop {
+    height: 43rem;
+    padding: 80px;
+    border-radius: 24px;
+    background-color: #F0F4F9;
+    text-align: center;
+}
+
+#content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop img {
+    transform: translateX(5rem);
+}
+
+#content .container .row .col-lg-6 .voice-and-video-calls {
+    height: 42rem;
+    overflow: hidden;
+    padding: 80px;
+    border-radius: 24px;
+    background-color: #D8E8EA;
+    text-align: center;
+}
+
+#content .container .row .col-lg-6 .voices-message,
+#content .container .row .col-lg-6 .security-by-default,
+#content .container .row .col-lg-6 .share-momments {
+    padding: 80px;
+    background-color: #D8E8EA;
+    border-radius: 24px;
+    text-align: center;
+}
+
+#content .container .row .col-lg-6 .share-momments {
+    background-color: #FCF2C6;
+}
+
+#content .container .row .col-lg-6 .security-by-default {
+    background-color: #E7F0E4;
+}
+
+#content .container .row .col-lg-6 .security-by-default .circle {
+    width: 23rem;
+    height: 23rem;
+    background-color: #77D7C8;
+    border-radius: 50%;
+}
+
+
+#content .container .row .col-lg-6 .voices-message img {
+    margin-top: -5rem;
+}
+
+#content .container .row .col-lg-6 .documents-sharing {
+    background-color: #FCF2C6;
+    height: 40rem;
+    overflow: hidden;
+    padding: 40px 80px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+/* END OF CONTENT */
+
+
+/* FOOTERS */
+#footers {
+    background-color: #273443;
+    margin-top: 1.5rem;
+    padding: 3rem;
+}
+
+#footers .container .row .col-md-2 h5 {
+    letter-spacing: .2rem;
+}
+
+#footers .container .row .col-md-2 .links-whatsapp-footers a,
+#footers .container .row .col-md-2 .links-download-footers a,
+#footers .container .row .col-md-2 .links-help-footers a {
+    transition: .5s;
+    width: 7rem;
+}
+
+#footers .container .row .col-md-2 .links-companny-footers a {
+    transition: .5s;
+    width: 9rem;
+}
+
+#footers .container .row .col-md-2 .links-whatsapp-footers a:active,
+#footers .container .row .col-md-2 .links-companny-footers a:active,
+#footers .container .row .col-md-2 .links-download-footers a:active,
+#footers .container .row .col-md-2 .links-help-footers a:active {
+    color: #1CB39B !important;
+}
+
+/* END OF FOOTERS */
+
+
+/* COPYRIGHT */
+#copyright {
+    background-color: #1C1E21;
+}
+
+/* END OF COPYRIGHT */
+
+
+/* MESSAGE */
+#message .container .message-from-me {
+    background-color: #fff;
+    height: 5.3rem;
+    border-radius: 10px;
+    position: fixed;
+    top: 42rem;
+    right: 2rem;
+    z-index: 1;
+    border: 1px solid rgb(240, 240, 240);
+    border-right: 5px solid #1CB39B;
+    transform: translateX(25rem);
+}
+
+#message .container .message-from-me .close {
+    cursor: pointer;
+}
+
+#message .container .message-from-me .close .fas {
+    transition: .5s;
+}
+
+#message .container .message-from-me .close .fas:hover {
+    transform: rotate(360deg)
+}
+
+#message .container .message-from-me.message-animation {
+    animation: messageAnimation 1s cubic-bezier(0, 0, 0, 0.99) forwards;
+}
+
+#message .container .message-from-me .photo {
+    width: 3rem;
+    height: 3rem;
+    background-color: #128C7E;
+    border-radius: 50%;
+}
+
+@keyframes messageAnimation {
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* END OF MESSAGE */

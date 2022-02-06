@@ -1,0 +1,422 @@
+@media (min-width: 300px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem .5rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    #content .container .row .col-lg-6 .share-momments {
+        overflow: hidden;
+    }
+
+    #content .container .row .col-lg-6 .share-momments img {
+        margin-top: -2.8rem;
+    }
+
+
+    #content .container .row .col-lg-6 .text,
+    #content .container .row .col-lg-6 .group-chat,
+    #content .container .row .col-lg-6 .voice-and-video-calls,
+    #content .container .row .col-lg-6 .share-momments,
+    #content .container .row .col-lg-6 .documents-sharing,
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop,
+    #content .container .row .col-lg-6 .security-by-default,
+    #content .container .row .col-lg-6 .voices-message {
+        padding: 2.5rem 1.2rem;
+        border-radius: 0;
+    }
+
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .family,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .friends,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .weekend,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-family,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-friends,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-weekend {
+        margin: 0 auto;
+    }
+
+    #content .container .row .col-lg-6 .text {
+        margin-top: 0 !important;
+    }
+
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop {
+        overflow: hidden;
+    }
+
+    #content .container .row .col-lg-6 .security-by-default .circle {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #content .container .row .col-lg-6 .voices-message img {
+        margin-top: -2.5rem;
+    }
+
+    /* END OF CONTENT */
+
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin: 0 .5rem;
+        right: 0;
+        border-right: 5px solid #1CB39B;
+    }
+
+    #message .container .message-from-me .photo {
+        width: 4rem;
+    }
+
+    #message .container .message-from-me .text {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    #message .container .message-from-me .text p {
+        font-size: .8rem !important;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: .9rem;
+    }
+
+    #message .container .message-from-me .close {
+        margin-top: -.3rem !important;
+    }
+
+    /* END OF MESSAGE */
+
+
+    /* FOOTERS */
+    #footers .container .row .col-md-2 {
+        text-align: center;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 2.5rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-companny-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 100%;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 1.5rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
+
+}
+
+
+@media (min-width: 400px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 .voice-and-video-calls img {
+        margin-top: 2rem;
+    }
+
+    /* END OF CONTENT */
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin-right: 1rem;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .family,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .friends,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .weekend,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-family,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-friends,
+    #content .container .row .col-lg-6 .group-chat .row .col-sm-6 .text-weekend {
+        margin: 0;
+    }
+
+    #content .container .row .col-lg-6 .text,
+    #content .container .row .col-lg-6 .voice-and-video-calls,
+    #content .container .row .col-lg-6 .share-momments,
+    #content .container .row .col-lg-6 .documents-sharing, 
+    #content .container .row .col-lg-6 .group-chat,
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop,
+    #content .container .row .col-lg-6 .security-by-default,
+    #content .container .row .col-lg-6 .voices-message {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    #content .container .row .col-lg-6 .text {
+        border-radius: 0 0 24px 24px;
+    }
+
+    #content .container .row .col-lg-6 .voice-and-video-calls,
+    #content .container .row .col-lg-6 .share-momments,
+    #content .container .row .col-lg-6 .documents-sharing,
+    #content .container .row .col-lg-6 .group-chat,
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop,
+    #content .container .row .col-lg-6 .security-by-default,
+    #content .container .row .col-lg-6 .voices-message {
+        border-radius: 24px;
+    }
+
+    /* END OF CONTENT */
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 .voice-and-video-calls img {
+        margin-top: 0;
+    }
+
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop {
+        height: 48rem;
+    }
+
+    /* END OF CONTENT */
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: 0rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #content .container .row .col-lg-6 .text {
+        margin-top: 1.5rem !important;
+        border-radius: 24px;
+    }
+
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop {
+        height: 40rem;
+    }
+
+    /* END OF CONTENT */
+
+    /* MESSAGE */
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a:hover,
+    #footers .container .row .col-md-2 .links-companny-footers a:hover,
+    #footers .container .row .col-md-2 .links-download-footers a:hover,
+    #footers .container .row .col-md-2 .links-help-footers a:hover {
+        color: #1CB39B !important;
+        transform: translateX(2rem);
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 1000px) {}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 .voice-and-video-calls img {
+        margin-top: 1.5rem;
+    }
+
+    /* END OF CONTENT */
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-evenly !important;
+    }
+
+    /* END OF FOOTERS */
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: .2rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* CONTENT */
+    #content .container .row .col-lg-6 .text,
+    #content .container .row .col-lg-6 .voice-and-video-calls,
+    #content .container .row .col-lg-6 .share-momments,
+    #content .container .row .col-lg-6 .group-chat,
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop,
+    #content .container .row .col-lg-6 .security-by-default,
+    #content .container .row .col-lg-6 .voices-message {
+        padding: 80px;
+    }
+
+    #content .container .row .col-lg-6 .documents-sharing {
+        padding: 40px 80px;
+    }
+
+    #content .container .row .col-lg-6 .share-momments img {
+        margin-top: -5rem;
+    }
+
+    #content .container .row .col-lg-6 .voice-and-video-calls img {
+        margin-top: 0;
+    }
+
+    #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop {
+        height: 45rem;
+    }
+
+    #content .container .row .col-lg-6 .security-by-default .circle {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #content .container .row .col-lg-6 .voices-message img {
+        margin-top: -5rem;
+    }
+
+    /* END OF CONTENT */
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: center !important;
+    }
+
+    /* END OF FOOTERS */
+}
