@@ -1,0 +1,371 @@
+@media (min-width: 300px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 1rem .5rem;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* CONTENTS */
+    #contents .container .row .col-lg-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #contents .container .row .col-lg-6 .phone {
+        margin-top: 0 !important;
+        border-radius: 0;
+        padding: 1.5rem 1.2rem;
+    }
+
+    #contents .container .row .col-lg-6 .mac-or-windows-pc {
+        border-radius: 0;
+        padding: 1.5rem 1.2rem;
+    }
+
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .logo-microsoft img {
+        transform: scale(1.5);
+        margin-top: 2rem !important;
+    }
+
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .windows-64-bit {
+        margin-top: 2rem;
+    }
+
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .windows-32-bit {
+        margin-top: 1rem;
+    }
+
+    #contents .container .row .col-lg-6 .phone .button-android .btn:active,
+    #contents .container .row .col-lg-6 .phone .button-iphone .btn:active,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .button-windows .btn:active {
+        background-color: #1CB39B;
+    }
+
+    /* END OF CONTENTS */
+
+
+    /* FOOTERS */
+    #footers {
+        margin-top: 0;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: center;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 2.5rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-companny-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 100%;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 1.5rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+    /* END OF COPYRIGHT */
+
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin: 0 .5rem;
+        right: 0;
+        border-right: 5px solid #1CB39B;
+    }
+
+    #message .container .message-from-me .photo {
+        width: 4rem;
+    }
+
+    #message .container .message-from-me .text {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    #message .container .message-from-me .text p {
+        font-size: .8rem !important;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: .9rem;
+    }
+
+    #message .container .message-from-me .close {
+        margin-top: -.3rem !important;
+    }
+
+    /* END OF MESSAGE */
+
+}
+
+
+@media (min-width: 400px) {
+
+    /* CONTENTS */
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .logo-microsoft img {
+        transform: scale(1);
+    }
+
+    /* END OF CONTENTS */
+
+    /* MESSAGE */
+    #message .container .message-from-me {
+        margin-right: 1rem;
+    }
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+}
+
+
+@media (min-width: 576px) {
+
+    /* CONTENTS */
+    #contents .container .row .col-lg-6 .phone,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc {
+        margin-top: 1.5rem !important;
+        border-radius: 24px;
+        padding: 40px;
+    }
+
+    /* END OF CONTENTS */
+
+
+    /* FOOTERS */
+    #footers {
+        margin-top: 25px;
+    }
+
+    /* END OF FOOTERS */
+}
+
+
+@media (min-width: 768px) {
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: 0rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+}
+
+
+@media (min-width: 992px) {
+
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: none;
+    }
+
+    .navbar .logo-whatsApp {
+        display: block;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* CONTENTS */
+    #contents .container .row .col-lg-6 {
+        padding: 0 12px;
+    }
+
+    #contents .container .row .col-lg-6 .phone,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc {
+        height: 48rem;
+    }
+
+    #contents .container .row .col-lg-6 .phone .button-android .btn:hover,
+    #contents .container .row .col-lg-6 .phone .button-iphone .btn:hover,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc .button-windows .btn:hover {
+        background-color: #1CB39B;
+    }
+
+    /* END OF CONTENTS */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-between !important;
+    }
+
+    #footers .container .row .col-md-2 {
+        text-align: left;
+    }
+
+    #footers .container .row .col-md-2 .companny,
+    #footers .container .row .col-md-2 .download,
+    #footers .container .row .col-md-2 .help {
+        margin-top: 0rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a,
+    #footers .container .row .col-md-2 .links-download-footers a,
+    #footers .container .row .col-md-2 .links-help-footers a {
+        width: 7rem;
+    }
+
+    #footers .container .row .col-md-2 .links-companny-footers a {
+        width: 9rem;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers,
+    #footers .container .row .col-md-2 .links-companny-footers,
+    #footers .container .row .col-md-2 .links-download-footers,
+    #footers .container .row .col-md-2 .links-help-footers {
+        margin-top: 2rem !important;
+    }
+
+    #footers .container .row .col-md-2 .links-whatsapp-footers a:hover,
+    #footers .container .row .col-md-2 .links-companny-footers a:hover,
+    #footers .container .row .col-md-2 .links-download-footers a:hover,
+    #footers .container .row .col-md-2 .links-help-footers a:hover {
+        color: #1CB39B !important;
+        transform: translateX(2rem);
+    }
+
+    /* END OF FOOTERS */
+
+
+    /* COPYRIGHT */
+    #copyright {
+        text-align: center;
+    }
+
+
+
+    /* MESSAGE */
+
+    #message .container .message-from-me .text h6 {
+        font-size: 1rem !important;
+    }
+
+    /* END OF MESSAGE */
+
+}
+
+
+@media (min-width: 1200px) {
+
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: block;
+    }
+
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
+    /* END OF NAVBAR */
+
+
+    /* CONTENTS */
+    #contents .container .row .col-lg-6 .phone,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc {
+        padding: 80px;
+    }
+
+    #contents .container .row .col-lg-6 .phone,
+    #contents .container .row .col-lg-6 .mac-or-windows-pc {
+        height: 53rem;
+    }
+
+    /* END OF CONTENTS */
+
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: space-evenly !important;
+    }
+
+    /* END OF FOOTERS */
+
+    /* COPYRIGHT */
+    #copyright .container .row .col-md-4 p {
+        margin-top: .2rem !important;
+        padding: .7rem 0;
+    }
+
+    /* END COPYRIGHT */
+
+}
+
+
+@media (min-width: 1400px) {
+
+    /* FOOTERS */
+    #footers .container .row {
+        justify-content: center !important;
+    }
+
+    /* END OF FOOTERS */
+}
