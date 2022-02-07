@@ -10,6 +10,10 @@
         padding: 0;
     }
 
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
     /* END OF NAVBAR */
 
 
@@ -177,7 +181,7 @@
     #content .container .row .col-lg-6 .text,
     #content .container .row .col-lg-6 .voice-and-video-calls,
     #content .container .row .col-lg-6 .share-momments,
-    #content .container .row .col-lg-6 .documents-sharing, 
+    #content .container .row .col-lg-6 .documents-sharing,
     #content .container .row .col-lg-6 .group-chat,
     #content .container .row .col-lg-6 .whatsApp-on-web-and-dekstop,
     #content .container .row .col-lg-6 .security-by-default,
@@ -266,6 +270,17 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: none;
+    }
+
+    .navbar .logo-whatsApp {
+        display: block;
+    }
+
+    /* END OF NAVBAR */
+
     /* CONTENT */
     #content .container .row .col-lg-6 {
         padding-left: 12px;
@@ -347,6 +362,18 @@
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: block;
+    }
+
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
+    /* END OF NAVBAR */
+
 
     /* CONTENT */
     #content .container .row .col-lg-6 .voice-and-video-calls img {
