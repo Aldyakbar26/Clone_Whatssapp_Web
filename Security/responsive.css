@@ -10,6 +10,11 @@
         padding: 0;
     }
 
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
+
     /* END OF NAVBAR */
 
 
@@ -222,6 +227,17 @@
         background-color: #F0F4F9;
     }
 
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: none;
+    }
+
+    .navbar .logo-whatsApp {
+        display: block;
+    }
+
+    /* END OF NAVBAR */
+
     /* HEADER */
     #header .background-header {
         height: 403px;
@@ -303,6 +319,17 @@
 }
 
 @media (min-width : 1200px) {
+
+    /* NAVBAR */
+    .navbar .navbar-brand {
+        display: block;
+    }
+
+    .navbar .logo-whatsApp {
+        display: none;
+    }
+
+    /* END OF NAVBAR */
 
     /* CONTENT */
     #content .container {
